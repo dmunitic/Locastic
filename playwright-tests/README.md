@@ -139,7 +139,7 @@ This gives us:
 | BUG-009 | Submit button clipped on mobile | `test_submit_button_fully_visible_on_mobile` |
 | BUG-010 | Street Address obscured on tablet | `test_street_address_not_obscured_on_tablet` |
 | BUG-011 | Newsletter checkbox obscured on mobile | `test_newsletter_checkbox_visible_on_mobile` |
-| BUG-012 | Forgot password always shows success | `test_unregistered_email_does_not_show_success` |
+| BUG-012 | Forgot password always shows success | `test_forgot_password_unregistered_email_does_not_show_success` |
 | BUG-014 | No max length validation on text fields | `test_excessively_long_input_rejected` |
 | BUG-015 | Name fields accept special symbols | `test_symbols_in_name_fields_rejected` |
 | BUG-016 | No input trimming for spaces | `test_email_with_leading_trailing_spaces_rejected` |

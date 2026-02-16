@@ -8,7 +8,7 @@ class TestForgotPassword:
     @pytest.mark.xfail(
         reason="BUG-012: Forgot password always shows success regardless of input"
     )
-    def test_unregistered_email_does_not_show_success(self, forgot_password_page):
+    def test_forgot_password_unregistered_email_does_not_show_success(self, forgot_password_page):
         """TC-048: Submitting an unregistered email should not claim a reset link was sent."""
         page = forgot_password_page
 
